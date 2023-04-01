@@ -1,6 +1,6 @@
 import React from 'react';
-import AboutContent from '../../Components/aboutDetails/AboutContent';
-import Title from '../../Components/PageTitle/title';
+
+import { Title, AboutContent } from '../../Components/index';
 import { AboutWrapper } from './aboutStyle';
 
 const About = () => {

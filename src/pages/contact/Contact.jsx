@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { Title } from '../../Components';
 
 const Contact = () => {
   return (
     <div>
-      <h1>Contact Page</h1>
+      <Title title='contact us' lineWidth='180px' />
     </div>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

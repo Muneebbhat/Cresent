@@ -10,12 +10,12 @@
   border-radius: 50rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-    transition: ease-in-out .3s;
+  transition: ease-in-out 0.3s;
 }
 
 .slick-arrow.slick-next:hover,
 .slick-arrow.slick-prev:hover {
-  background-color: #A4907C;
+  background-color: #a4907c;
 }
 
 .slick-arrow.slick-next {
@@ -35,6 +35,20 @@
 .slick-next::before {
   display: none;
 }
-/* .slick-prev:before{
-  display: none;
-} */
+
+.iamge_slider_wrapper {
+  width: 100%;
+  height: 500px;
+}
+
+@media only screen and (max-width: 768px) {
+  .iamge_slider_wrapper {
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .iamge_slider_wrapper {
+    height: 250px;
+  }
+}

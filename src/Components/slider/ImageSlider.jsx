@@ -24,15 +24,30 @@ const ImageSlider = () => {
       </div>
     );
   };
+
+  const sliderProperties = {
+    dots: true,
+    prevArrow: <PreviousBtn />,
+    nextArrow: <NextBtn />,
+    autoplay: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          dots: false,
+        },
+      },
+    ],
+  };
   return (
-    <div style={{}}>
-      <Slider dots={true} prevArrow={<PreviousBtn />} nextArrow={<NextBtn />} >
+    <div className="main_slider">
+      <Slider {...sliderProperties}>
         {data.images.map((currImg, i) => (
-          <div key={i}>
+          <div key={i} className="iamge_slider_wrapper">
             <img
               src={currImg}
               alt="Image"
-              style={{ width: "100%", height: "500px" }}
+              style={{ width: "100%", height: "100%", objectFit: "cover" }}
             />
           </div>
         ))}
