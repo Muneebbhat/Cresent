@@ -1,11 +1,15 @@
-import React from 'react'
+import React from 'react';
+
+import { Title, AboutContent } from '../../Components/index';
+import { AboutWrapper } from './aboutStyle';
 
 const About = () => {
   return (
-    <div>
-      <h1>About Page</h1>
-    </div>
-  )
-}
+    <AboutWrapper>
+      <Title title='about us' lineWidth='170px' />
+      <AboutContent />
+    </AboutWrapper>
+  );
+};
 
-export default About
+export default About;
