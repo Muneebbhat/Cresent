@@ -6,6 +6,10 @@
     "../images/image3.jpg",
     "../images/image4.jpg"
   ],
+<<<<<<< HEAD
   "logo": "../images/logo_creacent.png"
 
+=======
+  "about_image": "../images/about_image.png"
+>>>>>>> f06b31ea1995934f99121847155722900748ba29
 }
