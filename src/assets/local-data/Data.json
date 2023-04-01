@@ -5,5 +5,7 @@
     "../images/image2.jpg",
     "../images/image3.jpg",
     "../images/image4.jpg"
-  ]
+  ],
+  "logo": "../images/logo_creacent.png"
+
 }
