@@ -74,7 +74,7 @@ export const SideMenuSection = styled.div`
       width: 100%;
       /* background-color: red; */
       position: absolute;
-      bottom: 80px;
+      bottom: 120px;
       z-index: 9666666666666666;
       display: flex;
       justify-content: center;
