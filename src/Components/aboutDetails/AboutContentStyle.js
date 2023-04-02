@@ -25,6 +25,7 @@ export const AboutContainer = styled.div`
   .text_container {
     width: 60%;
     height: 100%;
+
     padding: 10px 50px 10px 10px;
     /* background-color: maroon; */
     ul {

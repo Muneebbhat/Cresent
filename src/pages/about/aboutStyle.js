@@ -3,6 +3,7 @@ import { Constant } from '../../assets/reusable/index';
 
 export const AboutWrapper = styled.section`
   height: 100vh;
+  max-height: 800px;
   /* background-color: yellow; */
   padding-top: 100px;
   width: 100vw;
