@@ -5,7 +5,7 @@ import { Section } from './ContactUsStyle';
 const Contact = () => {
   return (
     <Section>
-      <Title title='contact us' lineWidth='180px' />
+      <Title title='contact us' lineWidth={200} />
       <div className='contact_info_wrapper'>
         {/* map  */}
         <div className='map_wrapper'>
