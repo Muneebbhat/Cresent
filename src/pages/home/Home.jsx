@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Header, ImageSlider, SideMenu } from "../../Components/index";
+import React, { useState } from 'react';
+import { Header, ImageSlider, SideMenu } from '../../Components/index';
 
 const Home = () => {
   const [side, setSide] = useState(false);
@@ -10,7 +10,7 @@ const Home = () => {
     <div>
       <Header sideMunuProp={sideMenuHandler} />
       <ImageSlider />
-      <SideMenu sideMunuProp={side} sideMenuHandler={sideMenuHandler}/>
+      <SideMenu sideMunuProp={side} sideMenuHandler={sideMenuHandler} />
     </div>
   );
 };
