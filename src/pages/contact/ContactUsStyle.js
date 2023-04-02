@@ -10,7 +10,7 @@ export const Section = styled.section`
   .contact_info_wrapper {
     background-color: #e3ddd7;
     position: relative;
-    height: 500px;
+    height: 550px;
 
     @media only screen and (max-width: 728px) {
       height: auto;
@@ -26,7 +26,7 @@ export const Section = styled.section`
       background-color: black;
       transform: translate(2.5%, 5%);
 
-      @media only screen and (max-width: 728px) {
+      @media only screen and (max-width: 768px) {
         height: 450px;
       }
 
