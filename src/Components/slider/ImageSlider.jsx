@@ -11,7 +11,7 @@ const ImageSlider = () => {
     const { className, onClick } = props;
     return (
       <div className={className} onClick={onClick}>
-        <FiChevronLeft fontSize="30px" color="white" />
+        <FiChevronLeft className="left_arrow" />
       </div>
     );
   };
@@ -20,24 +20,17 @@ const ImageSlider = () => {
     const { className, onClick } = props;
     return (
       <div className={className} onClick={onClick}>
-        <FiChevronRight style={{ color: "white", fontSize: "30px" }} />
+        <FiChevronRight className="right_arrow" />
       </div>
     );
   };
 
   const sliderProperties = {
     dots: true,
+    lazyLoad: true,
     prevArrow: <PreviousBtn />,
     nextArrow: <NextBtn />,
     autoplay: true,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          dots: false,
-        },
-      },
-    ],
   };
   return (
     <div className="main_slider">
