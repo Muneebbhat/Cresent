@@ -4,7 +4,7 @@ import { Title } from '../../Components';
 const Contact = () => {
   return (
     <div>
-      <Title title='contact us' lineWidth='180px' />
+      <Title title='contact us' lineWidth={180} />
     </div>
   );
 };

@@ -4,7 +4,7 @@ import { Title } from '../../Components';
 const Gallery = () => {
   return (
     <div>
-      <Title title='gallery' lineWidth='120px' />
+      <Title title='gallery' lineWidth={130} />
     </div>
   );
 };

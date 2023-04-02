@@ -1,13 +1,13 @@
-import React from 'react'
-import {Header,ImageSlider} from '../../Components/index'
+import React from 'react';
+import { Header, ImageSlider } from '../../Components/index';
 
 const Home = () => {
   return (
     <div>
-      <Header/>
-      <ImageSlider/>
+      {/* <Header/> */}
+      <ImageSlider />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
