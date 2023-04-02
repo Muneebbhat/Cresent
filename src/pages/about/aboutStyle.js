@@ -7,6 +7,22 @@ export const AboutWrapper = styled.section`
   padding-top: 100px;
   width: 100vw;
   max-width: 1336px;
+
+  @media screen and (max-width: 1024px) {
+    height: 70vh;
+    /* background-color: yellow; */
+    padding-top: 50px;
+    width: 100vw;
+    max-width: 1336px;
+  }
+  @media screen and (max-width: 768px) {
+    height: 70vh;
+    /* background-color: yellow; */
+    padding-top: 50px;
+    width: 100vw;
+    max-width: 1336px;
+  }
+
   @media screen and (max-width: 550px) {
     height: 80vh;
     /* background-color: yellow; */

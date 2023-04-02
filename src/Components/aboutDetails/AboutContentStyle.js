@@ -18,7 +18,7 @@ export const AboutContainer = styled.div`
     justify-content: center;
     img {
       position: absolute;
-      height: 120%;
+      height: 110%;
       top: -100px;
     }
   }
@@ -30,7 +30,7 @@ export const AboutContainer = styled.div`
     ul {
       list-style: none;
       li {
-        font-size: 18px;
+        font-size: 22px;
         padding-top: 10px;
       }
     }
@@ -44,7 +44,7 @@ export const AboutContainer = styled.div`
 
       img {
         height: 100%;
-        top: -70px;
+        top: -50px;
       }
     }
     .text_container {
@@ -52,7 +52,7 @@ export const AboutContainer = styled.div`
       ul {
         list-style: none;
         li {
-          font-size: 16px;
+          font-size: 18px;
           padding-top: 10px;
         }
       }
@@ -63,20 +63,19 @@ export const AboutContainer = styled.div`
     .image_container {
       img {
         position: absolute;
-        height: 110%;
-        top: -100px;
+        height: 100%;
+        top: -40px;
       }
     }
     .text_container {
       width: 60%;
       height: 100%;
-      padding: 10px 50px 10px 10px;
-      /* background-color: maroon; */
+      padding: 10px 10px 10px 0px;
       ul {
         list-style: none;
         li {
-          font-size: 18px;
-          padding-top: 10px;
+          font-size: 16px;
+          padding-top: 5px;
         }
       }
     }
@@ -85,7 +84,6 @@ export const AboutContainer = styled.div`
   @media screen and (max-width: 550px) {
     height: 80%;
     width: 100%;
-    background-color: green;
     .image_container {
       display: none;
     }

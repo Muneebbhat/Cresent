@@ -42,9 +42,11 @@ export const PageTitle = styled.section`
 
   /* media 1024 */
   @media screen and (max-width: 1024px) {
+    height: 80px;
+    /* padding: 20px 0; */
     .title_container {
       h1 {
-        font-size: 30px;
+        font-size: 25px;
       }
     }
 
@@ -55,17 +57,16 @@ export const PageTitle = styled.section`
         height: 3px;
       }
       .dot1 {
-        width: ${props => props.width - 40}px;
+        width: ${props => props.width - 60}px;
         border-radius: 50rem;
       }
     }
   }
   @media screen and (max-width: 768px) {
-    height: 80px;
-    padding: 0px 0;
+    height: 60px;
+    /* padding: 20px 0; */
 
     .title_container {
-      /* padding: 20px 0; */
       h1 {
         /* background-color: red; */
         font-size: 20px;
@@ -75,7 +76,7 @@ export const PageTitle = styled.section`
     .line_div {
       gap: 2px;
       span {
-        width: 3px;
+        width: 2px;
         height: 2px;
       }
       .dot1 {
@@ -96,7 +97,6 @@ export const PageTitle = styled.section`
       align-items: center;
       justify-content: center;
       h1 {
-        /* background-color: red; */
         font-size: 18px;
         font-weight: 400;
       }
