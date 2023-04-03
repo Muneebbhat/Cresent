@@ -31,7 +31,7 @@ export const AboutContainer = styled.div`
     ul {
       list-style: none;
       li {
-        font-size: 22px;
+        font-size: 16px;
         padding-top: 10px;
       }
     }
@@ -49,11 +49,11 @@ export const AboutContainer = styled.div`
       }
     }
     .text_container {
-      padding: 10px 50px 10px 10px;
+      padding: 10px 10px 10px 10px;
       ul {
         list-style: none;
         li {
-          font-size: 18px;
+          font-size: 14px;
           padding-top: 10px;
         }
       }
@@ -75,7 +75,7 @@ export const AboutContainer = styled.div`
       ul {
         list-style: none;
         li {
-          font-size: 16px;
+          font-size: 14px;
           padding-top: 5px;
         }
       }
@@ -95,7 +95,7 @@ export const AboutContainer = styled.div`
       ul {
         list-style: none;
         li {
-          font-size: 14px;
+          font-size: 12px;
           padding-top: 5px;
         }
       }
