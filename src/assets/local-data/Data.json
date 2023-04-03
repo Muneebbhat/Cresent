@@ -8,5 +8,39 @@
   ],
   "logo": "../images/logo_creacent.png",
 
-  "about_image": "../images/about_image.png"
+  "about_image": "../images/about_image.png",
+  "products_image": [
+    {
+      "title": "cake",
+      "image": "../images/image1.jpg"
+    },
+    {
+      "title": "pastries",
+      "image": "../images/image2.jpg"
+    },
+    {
+      "title": "gulab jamon",
+      "image": "../images/image3.jpg"
+    },
+    {
+      "title": "cream roll",
+      "image": "../images/image4.jpg"
+    },
+    {
+      "title": "biscuit",
+      "image": "../images/image2.jpg"
+    },
+    {
+      "title": "cookies",
+      "image": "../images/image1.jpg"
+    },
+    {
+      "title": "bred",
+      "image": "../images/image4.jpg"
+    },
+    {
+      "title": "fini",
+      "image": "../images/image3.jpg"
+    }
+  ]
 }
