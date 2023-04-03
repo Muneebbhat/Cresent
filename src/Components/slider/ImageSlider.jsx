@@ -1,8 +1,8 @@
 import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import "./imageSlider.css";
 import "slick-carousel/slick/slick-theme.css";
+import "./imageSlider.css";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import data from "../../assets/local-data/Data.json";
 

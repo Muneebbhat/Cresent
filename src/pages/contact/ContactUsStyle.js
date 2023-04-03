@@ -27,6 +27,7 @@ export const Section = styled.section`
       transform: translate(2.5%, 5%);
 
       @media only screen and (max-width: 768px) {
+        display: none;
         height: 450px;
       }
 
