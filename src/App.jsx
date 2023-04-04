@@ -33,6 +33,7 @@ const App = () => {
           maxWidth: "1366px",
           width: "100%",
           margin: "auto",
+          // backgroundColor: "red"
         }}
       >
         <Index modelHandler={modelHandler}/>

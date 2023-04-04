@@ -72,6 +72,7 @@ export const AboutContainer = styled.div`
       width: 100%;
       ul {
         list-style: none;
+        padding: 0 15px;
         li {
           font-size: 12px;
           padding-top: 5px;

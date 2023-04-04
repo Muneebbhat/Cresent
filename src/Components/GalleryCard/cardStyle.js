@@ -30,6 +30,7 @@ export const CardList = styled.div`
     font-size: 25px;
     height: 15%;
     text-transform: capitalize;
+    color:${Constant.Colors.helping}
   }
   &:hover {
     transform: translateY(-10px);

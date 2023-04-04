@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { Constant } from '../../assets/reusable/index';
+import styled from "styled-components";
+import { Constant } from "../../assets/reusable/index";
 
 export const PageTitle = styled.section`
   height: 100px;
@@ -14,7 +14,7 @@ export const PageTitle = styled.section`
     h1 {
       /* background-color: red; */
       font-size: 40px;
-      font-family: 'Roboto', sans-serif;
+      font-family: "Roboto", sans-serif;
       font-weight: 400;
       text-transform: capitalize;
       color: ${Constant.Colors.primary};
@@ -35,7 +35,7 @@ export const PageTitle = styled.section`
       background-color: ${Constant.Colors.primary};
     }
     .dot1 {
-      width: ${props => props.width}px;
+      width: ${(props) => props.width}px;
       border-radius: 50rem;
     }
   }
@@ -43,10 +43,10 @@ export const PageTitle = styled.section`
   /* media 1024 */
   @media screen and (max-width: 1024px) {
     height: 80px;
-    /* padding: 20px 0; */
+    /* padding: 0 0 20px 0; */
     .title_container {
       h1 {
-        font-size: 25px;
+        /* font-size: 25px; */
       }
     }
 
@@ -57,7 +57,7 @@ export const PageTitle = styled.section`
         height: 3px;
       }
       .dot1 {
-        width: ${props => props.width - 60}px;
+        width: ${(props) => props.width - 60}px;
         border-radius: 50rem;
       }
     }
@@ -69,7 +69,7 @@ export const PageTitle = styled.section`
     .title_container {
       h1 {
         /* background-color: red; */
-        font-size: 20px;
+        font-size: 28px;
       }
     }
 
@@ -80,7 +80,7 @@ export const PageTitle = styled.section`
         height: 2px;
       }
       .dot1 {
-        width: ${props => props.width - 80}px;
+        width: ${(props) => props.width - 80}px;
         border-radius: 50rem;
       }
     }
@@ -97,7 +97,7 @@ export const PageTitle = styled.section`
       align-items: center;
       justify-content: center;
       h1 {
-        font-size: 18px;
+        font-size: 25px;
         font-weight: 400;
       }
     }
@@ -109,7 +109,7 @@ export const PageTitle = styled.section`
         height: 2px;
       }
       .dot1 {
-        width: ${props => props.width - 80}px;
+        width: ${(props) => props.width - 80}px;
         border-radius: 50rem;
       }
     }
