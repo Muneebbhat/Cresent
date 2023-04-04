@@ -64,9 +64,7 @@ export const AboutContainer = styled.div`
   /* media 425 */
   @media screen and (max-width: 550px) {
     min-height: 250px;
-
     padding: 10px 0;
-    background-color: red;
     .image_container {
       display: none;
     }
