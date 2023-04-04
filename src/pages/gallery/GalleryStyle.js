@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { Constant } from '../../assets/reusable';
+import styled from "styled-components";
+import { Constant } from "../../assets/reusable";
 
 export const GalleryWrapper = styled.section`
   min-height: 100vh;
@@ -22,14 +22,14 @@ export const GalleryWrapper = styled.section`
   }
   @media screen and (max-width: 768px) {
     .products {
-      padding: 10px;
+      padding: 30px 10px 10px 10px;
       grid-template-columns: repeat(2, 1fr);
       gap: 10px;
     }
   }
   @media screen and (max-width: 500px) {
     .products {
-      padding: 10px;
+      padding: 30px 10px 10px 10px;
       grid-template-columns: repeat(1, 1fr);
       gap: 10px;
     }
