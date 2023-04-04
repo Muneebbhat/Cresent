@@ -3,9 +3,9 @@ import styled from "styled-components";
 import { Constant } from "../../assets/reusable";
 import { SiHomeassistantcommunitystore } from "react-icons/si";
 
-const FranchiseCard = () => {
+const FranchiseCard = ({modelHandler}) => {
   return (
-    <Card>
+    <Card onClick={modelHandler}>
       <div className="icon_wrapper">
         <SiHomeassistantcommunitystore />
       </div>
