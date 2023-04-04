@@ -8,7 +8,7 @@ import { Title } from "../../Components/index";
 import FranchiseCard from "./FranchiseCard";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 
-const Franchise = () => {
+const Franchise = ({modelHandler}) => {
   const PreviousBtn = (props) => {
     const { className, onClick } = props;
     return (
@@ -67,7 +67,7 @@ const Franchise = () => {
       <div className="franchise_slider_wrapper">
         <Slider  className="custom_slider" {...sliderProperties}>
           {mySlider.map((curr, i) => (
-            <FranchiseCard key={i} />
+            <FranchiseCard key={i} modelHandler={modelHandler}/>
           ))}
         </Slider>
       </div>

@@ -6,13 +6,13 @@ import Contact from "./contact/Contact";
 import Footer from "./footer/Footer";
 import Franchise from "./franchise/Franchise";
 
-const Index = () => {
+const Index = ({modelHandler}) => {
   return (
     <>
       <Home />
       <About />
       <Gallery />
-      <Franchise />
+      <Franchise modelHandler={modelHandler}/>
       <Contact />
       <Footer />
     </>

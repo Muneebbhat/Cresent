@@ -73,7 +73,6 @@ const Contact = () => {
             toast.error("Somethings Wents Wrong!!!", toastProperties);
           }
         );
-      console.log(contactFrom);
       setContactForm(fields);
     }
     e.preventDefault();
@@ -91,7 +90,7 @@ const Contact = () => {
             height="100%"
             style={{ border: "0" }}
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
         {/* contact input wrapper */}
