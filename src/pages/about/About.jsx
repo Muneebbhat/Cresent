@@ -3,7 +3,7 @@ import { AboutWrapper } from './aboutStyle';
 
 const About = () => {
   return (
-    <AboutWrapper>
+    <AboutWrapper name='about'>
       <Title title='about us' lineWidth={160} />
       <AboutContent />
     </AboutWrapper>
