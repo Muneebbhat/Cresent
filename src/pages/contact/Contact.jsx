@@ -80,7 +80,7 @@ const Contact = () => {
   };
 
   return (
-    <Section>
+    <Section id="contact">
       <Title title="contact us" lineWidth={200} />
       <div className="contact_info_wrapper">
         {/* map  */}
@@ -107,6 +107,7 @@ const Contact = () => {
                 placeholder="Enter Name"
                 value={contactFrom.name}
                 onChange={formHandler}
+                autoComplete="off"
               />
             </div>
             {/* email input */}
@@ -119,6 +120,7 @@ const Contact = () => {
                 placeholder="Enter Email"
                 value={contactFrom.email}
                 onChange={formHandler}
+                autoComplete="off"
               />
             </div>
 
@@ -133,6 +135,7 @@ const Contact = () => {
                 // max="10"
                 value={contactFrom.phone}
                 onChange={formHandler}
+                autoComplete="off"
               />
             </div>
 
@@ -146,6 +149,7 @@ const Contact = () => {
                 placeholder="Enter Message"
                 value={contactFrom.message}
                 onChange={formHandler}
+                autoComplete="off"
               />
             </div>
 

@@ -1,13 +1,23 @@
-import React, { useRef } from "react";
+import React, { useRef, useState, useEffect } from "react";
+import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 import { Navigation } from "./headerStyle";
 import data from "../../assets/local-data/Data.json";
 import Logo from "../../assets/images/logo_creacent.png";
 import { TbMenu2 } from "react-icons/tb";
 
 const Header = ({ sideMunuProp }) => {
+  const [headerOffset, setHeaderOffset] = useState(0);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      setHeaderOffset(window.pageYOffset);
+    });
+  }, []);
+
   const anchorTaqs = useRef();
   return (
-    <Navigation>
+    <Navigation opacity={headerOffset >= 320 ? "1" : "0.6"}>
       <div className="container">
         <div className="main_container">
           {/* logo Container */}
@@ -23,9 +33,9 @@ const Header = ({ sideMunuProp }) => {
             <ul>
               {data.navigation.map((currEl, i) => (
                 <li key={i}>
-                  <a href="#" key={i}>
+                  <Link to={currEl} key={i} href={`#${currEl}`} activeClass="active" spy={true}>
                     {currEl}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>

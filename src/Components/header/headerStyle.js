@@ -21,11 +21,12 @@ export const Navigation = styled.nav`
     height: 70px;
     width: 100%;
     background-color: ${Constant.Colors.secondary};
-    opacity: 0.6;
+    opacity: ${(props) => props.opacity};
     display: flex;
     justify-content: center;
     border-radius: 300px;
     backdrop-filter: blur(20px);
+    
     @media (max-width: 768px) {
       height: 60px;
     }
@@ -106,6 +107,10 @@ export const Navigation = styled.nav`
               background-color: ${Constant.Colors.primary};
               letter-spacing: 2px;
             }
+          }
+
+          .active {
+            background-color: ${Constant.Colors.primary};
           }
         }
       }

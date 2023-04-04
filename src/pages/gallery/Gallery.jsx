@@ -5,7 +5,7 @@ import data from '../../assets/local-data/Data.json';
 
 const Gallery = () => {
   return (
-    <GalleryWrapper>
+    <GalleryWrapper id='gallery'>
       <Title title='our products' lineWidth={230} />
       <div className='products'>
         {data.products_image.map((product, index) => (
